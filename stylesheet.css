@@ -11,10 +11,6 @@
     #secondary { width:100%; margin:0; border:none; }
 }
 
-html {
-  scroll-behavior: smooth;
-}
-
 body {
   margin: 0;
   height: 100%;
