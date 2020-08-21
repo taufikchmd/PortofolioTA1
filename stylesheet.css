@@ -11,6 +11,10 @@
     #secondary { width:100%; margin:0; border:none; }
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   height: 100%;
@@ -80,7 +84,7 @@ header img {
 }
 
 .header-left a:hover {
-  border-bottom: 2px solid #FEFFFF;
+  border-bottom: 1px solid #FEFFFF;
 }
 
 .header-left a.active {
@@ -261,15 +265,22 @@ footer .fa {
   margin: 5px 3px;
 }
 
-footer .fa-instagram {
-  background: #125688;
-  color: #FEFFFF;;
+.btm {
+  background: #696969;
+  color: #FEFFFF;
+  transition-duration: 0.5s;
 }
 
+.ig-btm:hover {
+  background: #125688;
+}
 
-footer .fa-linkedin {
+.mail-btm:hover {
+  background: #282828;
+}
+
+.li-btm:hover {
   background: #007bb5;
-  color: #FEFFFF;;
 }
 
 small {
